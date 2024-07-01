@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor de Medidas</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Conversor de Medidas</h1>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <h2>Conversor de Metros</h2>
+            <section class="conteudo-texto">
+                <input type="number" id="metrosInput" placeholder="Quantidade de Metros" onfocus="limpar();" >
+                <button onclick="converter()">Converter</button>
+                <br><br>
+                <label for="metros" class="conteudo-texto2">Metros em </label>
+
+                <div class="esqueleto-resultado">
+                    <div class="unidade">
+                        <label for="centimetros">Em centimetros</label><br><br>
+                        <label for="milimetros">Em milimteros</label><br><br>
+                        <label for="Pes">Em pés</label><br><br>
+                        <label for="Polegadas">Em polegads</label>
+                    </div>
+
+                    <div class="doispontos">
+                        <label for="centimetros">=</label><br><br>
+                        <label for="milimetros">=</label><br><br>
+                        <label for="Pes">=</label><br><br>
+                        <label for="Polegadas">=</label>
+                    </div>
+
+                    <div class="medida">
+                        <div id="resultado" onfocus="limpar();"></div>
+
+
+                    </div>
+                    <div>
+            </section>
+        </div>
+    </main>
+
+    <footer class=" rodape">
+                            <h3 class="rodape-autor-nome">
+                                João David & Gabriel Maia
+                            </h3>
+                            <section class="rodape-redessociais">
+                                <a href="index.html" class="rodape-redessociais-link"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                                <a href="index.html" class="rodape-redessociais-link"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="index.html" class="rodape-redessociais-link"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                            </section>
+                            </footer>
+
+</body>
+
+</html>
